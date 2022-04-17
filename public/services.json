@@ -1,0 +1,26 @@
+[
+    {
+        "id": "625510b903d8a9d32dab2777",
+        "image": "https://i.ibb.co/Mn9yzJz/esg2.jpg",
+        "name": "Weight Loss",
+        "price": 222,
+        "duration": "18 weeks",
+        "description": "Being fit and living healthy is what I know and love. Fitness has always been a part of my life. I grew up in a fit family—my dad ran marathons, we had a home gym, and my parents always had gym memberships."
+    },
+    {
+        "id": "625510b91a35612b0d43985f",
+        "image": "https://i.ibb.co/qDk71Sh/esg3.jpg",
+        "name": "Fit & Healthy",
+        "price": 205,
+        "duration": "16 weeks",
+        "description": "Our double room comfort is approx. 20m² large. The rooms are functional but nevertheless cozy and charmingly furnished rooms. All rooms have a balcony with stunning mountain views."
+    },
+    {
+        "id": "625510b92c66f38955c063b1",
+        "image": "https://i.ibb.co/F6SfcgC/esg4.jpg",
+        "name": "Muscle Building",
+        "price": 199,
+        "duration": "15 weeks",
+        "description": "Modern-alpine or new country house-style superior double rooms? Please tell us your taste and we will do our utmost to provide you your favorite room. Whoever first books first chooses"
+    }
+]
