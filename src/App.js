@@ -20,7 +20,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/blogs' element={<Blogs/>}/>
+        <Route path='/blogs' element={<Blogs />} />
         <Route path='/about' element={<About />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
@@ -31,7 +31,7 @@ function App() {
         } />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
