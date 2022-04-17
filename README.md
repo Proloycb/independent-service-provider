@@ -1,10 +1,23 @@
-# Getting Started with Create React App
+# Leo Stone || Personal Gym Trainer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Features
 
-In the project directory, you can run:
+* some services like weight loss, fit and healthy , muscle building 
+* there are also some latest articles
+* there are some pages
+* blogs page I will give some question's answer
+* there are also about me and login page
+
+## Technologies
+
+* React library
+* Tailwind framework
+* React router
+* Firebase authentication
+* React firebase hooks
+* React toastify etc
 
 ### `npm start`
 
