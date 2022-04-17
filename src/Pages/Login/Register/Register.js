@@ -40,7 +40,7 @@ const Register = () => {
           navigate('/home');
       }
     return (
-        <div className='flex justify-center h-screen mt-5'>
+        <div className='flex justify-center mt-5'>
             <div className='w-full max-w-sm '>
                 <h1 className='text-center text-4xl text-indigo-700 font-semibold mb-5'>Please Register</h1>
                 <form onSubmit={handleSubmit} className='shadow-md bg-gray-100 rounded px-8 pt-6 pb-8 mb-4'>
