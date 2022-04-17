@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 import logo from '../../../images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { signOut } from 'firebase/auth';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 
 const Header = () => {
+    const [user] = useAuthState(auth);
     const [open, setOpen] = useState(false);
     const menu = <FontAwesomeIcon icon={faBars}/>
     const close = <FontAwesomeIcon icon={faXmark}/>
@@ -37,7 +41,12 @@ const Header = () => {
                         <Link className='hover:text-orange-500' to='/about'>About</Link>
                     </li>
                     <li className='md:ml-8 text-xl md:my-0 my-5'>
-                        <Link className='hover:text-orange-500' to='/login'>Login</Link>
+                        {
+                            user ?
+                            <button onClick={() => signOut(auth)}>Signout</button>
+                            :
+                            <Link className='hover:text-orange-500' to='/login'>Login</Link>
+                        }
                     </li>
                 </ul>
             </div>
