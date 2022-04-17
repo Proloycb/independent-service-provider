@@ -1,6 +1,6 @@
 # Leo Stone || Personal Gym Trainer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live site link: [https://independent-service-prov-c505a.web.app/](https://independent-service-prov-c505a.web.app/).
 
 ## Available Features
 
